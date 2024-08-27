@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar-brand .brand-text {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.text-with-logo {
+  display: flex;
+  align-items: center;
+}
+
+.brand-logo {
+  width: 40px; /* Adjust the width as needed */
+  height: auto;
+  margin-right: 10px; /* Space between the logo and the text */
+}
+
+.navbar-nav .nav-link {
+  margin-left: 15px; /* Add some space between nav items */
+}
