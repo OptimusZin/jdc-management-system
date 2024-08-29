@@ -1,0 +1,12 @@
+#showcase {
+    min-height: 100vh;
+    position: relative;
+}
+
+#overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+ #showcase #header {
+     z-index: 2;
+ }

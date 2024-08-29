@@ -1,0 +1,14 @@
+<div class="col">
+    <a class="link-underline link-underline-opacity-0" href="">
+        <div class="card" style="width: 18rem;">
+            <img [src]="course().imageUrl" class="card-img-top" style="height: 180px;" [alt]="course().name">
+            <div class="card-body text-start">
+              <h5 class="card-title">{{course().name}}</h5>
+              <h6 class="card-text"><small>fees : {{ course().fees.toLocaleString() }} MMK</small></h6>
+              <h6 class="card-text"><small>Level : {{ course().level }}</small></h6>
+              <p class="card-text"><small>Start Date : {{ course().startDate.toLocaleDateString() }}</small></p>
+            </div>
+          </div>
+    </a> 
+</div>
+

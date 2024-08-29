@@ -1,1 +1,27 @@
-<p>activity works!</p>
+<div class="container-fluid mx-0 px-0 text-center">
+  <h1 class="display-5 fw-semibold">Activities in JDC</h1>
+
+
+  <div id="carouselExampleCaptions" class="carousel slide my-4">
+    <div class="carousel-inner">
+      @for(item of activities(); track item.id) {
+        <div class="carousel-item active" style="height: 80vh;">
+          <img [src]="item.imageUrl" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block" id="overlay">
+            <h1 class="display-5">{{item.name}}</h1>
+            <p>{{item.description}}</p>
+          </div>
+        </div>
+      }
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+</div>

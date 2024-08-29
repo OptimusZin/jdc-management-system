@@ -1,1 +1,11 @@
-<p>courses works!</p>
+<div class="container-fluid my-4 p-5 text-center bg-primary-subtle ">
+    <h1 class="display-5 fw-semibold">Upcoming Courses in JDC</h1>
+    <div class="row row-cols-4 my-5">
+        
+            @for(item of courses(); track item.id){
+                <app-course-card [course]="item"></app-course-card>
+            }        
+       
+    </div>
+    <button class="btn btn-outline-primary py-2"><p class="fw-bold m-0">Show All Courses</p></button>
+</div> 

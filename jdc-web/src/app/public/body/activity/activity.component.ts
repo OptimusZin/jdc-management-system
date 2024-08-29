@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
+import { ACTIVITIES } from '../../../data/activity.data';
 
 @Component({
   selector: 'app-activity',
@@ -8,5 +9,5 @@ import { Component } from '@angular/core';
   styleUrl: './activity.component.css'
 })
 export class ActivityComponent {
-
+  activities = signal(ACTIVITIES);
 }
