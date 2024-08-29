@@ -1,1 +1,346 @@
-<p>public-classes works!</p>
+<div class="container">
+    <div class="text-center text-primary mb-2">
+        <h1>Exploer Courses</h1>
+    </div>
+
+    <div class="btn-group mt-4 text-center" role="group">
+        <button (click)="setActiveView('view1')" class="btn custom-btn " [ngClass]="{'active': activeView === 'view1'}">
+            Upcoming
+        </button>
+        <button (click)="setActiveView('view2')" class="btn custom-btn" [ngClass]="{'active': activeView === 'view2'}">
+            All Course
+        </button>
+    </div>
+
+    <div class="mt-5 ">
+        <div *ngIf="activeView === 'view1'">
+            <div class="row p-4">
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <img src="class-images/spring-course.jpg" style="height: 150px;" alt="">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <h3>JAVA</h3>
+                                <small>Level : Begineer</small> <br>
+                                <small>Fees : 150000 MMK</small> <br>
+                                <small>Start Date: 6-8-1998</small>
+                            </div>
+                        </div>
+                        <div class="text-center mb-3">
+                            <button class="btn btn-outline-primary btn-sm pe-4 ps-4"  data-bs-toggle="modal" data-bs-target="#exampleModal">More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <img src="class-images/spring-course.jpg" style="height: 150px;" alt="">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <h3>JAVA</h3>
+                                <small>Level : Begineer</small> <br>
+                                <small>Fees : 150000 MMK</small> <br>
+                                <small>Start Date: 6-8-1998</small>
+                            </div>
+                        </div>
+                        <div class="text-center mb-3">
+                            <button class="btn btn-outline-primary btn-sm pe-4 ps-4">More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <img src="class-images/spring-course.jpg" style="height: 150px;" alt="">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <h3>JAVA</h3>
+                                <small>Level : Begineer</small> <br>
+                                <small>Fees : 150000 MMK</small> <br>
+                                <small>Start Date: 6-8-1998</small>
+                            </div>
+                        </div>
+                        <div class="text-center mb-3">
+                            <button class="btn btn-outline-primary btn-sm pe-4 ps-4">More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <img src="class-images/spring-course.jpg" style="height: 150px;" alt="">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <h3>JAVA</h3>
+                                <small>Level : Begineer</small> <br>
+                                <small>Fees : 150000 MMK</small> <br>
+                                <small>Start Date: 6-8-1998</small>
+                            </div>
+                        </div>
+                        <div class="text-center mb-3">
+                            <button class="btn btn-outline-primary btn-sm pe-4 ps-4">More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <img src="class-images/spring-course.jpg" style="height: 150px;" alt="">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <h3>JAVA</h3>
+                                <small>Level : Begineer</small> <br>
+                                <small>Fees : 150000 MMK</small> <br>
+                                <small>Start Date: 6-8-1998</small>
+                            </div>
+                        </div>
+                        <div class="text-center mb-3">
+                            <button class="btn btn-outline-primary btn-sm pe-4 ps-4" data-bs-toggle="modal"
+                                data-bs-target="#1">More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <img src="class-images/spring-course.jpg" style="height: 150px;" alt="">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <h3>JAVA</h3>
+                                <small>Level : Begineer</small> <br>
+                                <small>Fees : 150000 MMK</small> <br>
+                                <small>Start Date: 6-8-1998</small>
+                            </div>
+                        </div>
+                        <div class="text-center mb-3">
+                            <button class="btn btn-outline-primary btn-sm pe-4 ps-4">More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <img src="class-images/spring-course.jpg" style="height: 150px;" alt="">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <h3>JAVA</h3>
+                                <small>Level : Begineer</small> <br>
+                                <small>Fees : 150000 MMK</small> <br>
+                                <small>Start Date: 6-8-1998</small>
+                            </div>
+                        </div>
+                        <div class="text-center mb-3">
+                            <button class="btn btn-outline-primary btn-sm pe-4 ps-4">More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <img src="class-images/spring-course.jpg" style="height: 150px;" alt="">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <h3>JAVA</h3>
+                                <small>Level : Begineer</small> <br>
+                                <small>Fees : 150000 MMK</small> <br>
+                                <small>Start Date: 6-8-1998</small>
+                            </div>
+                        </div>
+                        <div class="text-center mb-3">
+                            <button class="btn btn-outline-primary btn-sm pe-4 ps-4">More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div *ngIf="activeView === 'view2'">
+            <div class="row p-4">
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <img src="class-images/image.jpg" style="height: 150px;" alt="">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <h3>JAVA</h3>
+                                <small>Level : Begineer</small> <br>
+                                <small>Fees : 150000 MMK</small> <br>
+                                <small>Start Date: 6-8-1998</small>
+                            </div>
+                        </div>
+                        <div class="text-center mb-3">
+                            <button class="btn btn-outline-primary btn-sm pe-4 ps-4">More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <img src="class-images/image.jpg" style="height: 150px;" alt="">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <h3>JAVA</h3>
+                                <small>Level : Begineer</small> <br>
+                                <small>Fees : 150000 MMK</small> <br>
+                                <small>Start Date: 6-8-1998</small>
+                            </div>
+                        </div>
+                        <div class="text-center mb-3">
+                            <button class="btn btn-outline-primary btn-sm pe-4 ps-4">More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <img src="class-images/image.jpg" style="height: 150px;" alt="">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <h3>JAVA</h3>
+                                <small>Level : Begineer</small> <br>
+                                <small>Fees : 150000 MMK</small> <br>
+                                <small>Start Date: 6-8-1998</small>
+                            </div>
+                        </div>
+                        <div class="text-center mb-3">
+                            <button class="btn btn-outline-primary btn-sm pe-4 ps-4">More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <img src="class-images/image.jpg" style="height: 150px;" alt="">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <h3>JAVA</h3>
+                                <small>Level : Begineer</small> <br>
+                                <small>Fees : 150000 MMK</small> <br>
+                                <small>Start Date: 6-8-1998</small>
+                            </div>
+                        </div>
+                        <div class="text-center mb-3">
+                            <button class="btn btn-outline-primary btn-sm pe-4 ps-4">More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="d-flex justify-content-between w-100">
+            <img src="class-images/logo/java.jpg" class="img-fluid rounded shadow-sm" style="height: 60px; width: 60px;"
+                alt="java">
+            <img src="class-images/logo/angular.jpg" class="img-fluid rounded shadow-sm"
+                style="height: 60px; width: 60px;" alt="java">
+            <img src="class-images/logo/react.jpg" class="img-fluid rounded shadow-sm"
+                style="height: 60px; width: 60px;" alt="java">
+            <img src="class-images/logo/docker.jpg" class="img-fluid rounded shadow-sm"
+                style="height: 60px; width: 60px;" alt="java">
+            <img src="class-images/logo/javascript.jpg" class="img-fluid rounded shadow-sm"
+                style="height: 60px; width: 60px;" alt="java">
+            <img src="class-images/logo/mongodb.jpg" class="img-fluid rounded shadow-sm"
+                style="height: 60px; width: 60px;" alt="java">
+            <img src="class-images/logo/mysql.jpg" class="img-fluid rounded shadow-sm"
+                style="height: 60px; width: 60px;" alt="java">
+            <img src="class-images/logo/typescript.jpg" class="img-fluid rounded shadow-sm"
+                style="height: 60px; width: 60px;" alt="java">
+            <img src="class-images/logo/j2ee.jpg" class="img-fluid rounded shadow-sm" style="height: 60px; width: 60px;"
+                alt="java">
+            <img src="class-images/logo/nodejs.jpg" class="img-fluid rounded shadow-sm"
+                style="height: 60px; width: 60px;" alt="java">
+            <img src="class-images/logo/tailwind.jpg" class="img-fluid rounded shadow-sm"
+                style="height: 60px; width: 60px;" alt="java">
+            <img src="class-images/logo/spring.jpg" class="img-fluid rounded shadow-sm"
+                style="height: 60px; width: 60px;" alt="java">
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- <div class="container mt-5">
+    <div class="d-flex justify-content-between w-100">
+        <img src="logo/java.jpg" class="img-fluid rounded shadow-sm" style="height: 60px; width: 60px;" alt="java">
+        <img src="logo/angular.jpg" class="img-fluid rounded shadow-sm" style="height: 60px; width: 60px;" alt="java">
+        <img src="logo/react.jpg" class="img-fluid rounded shadow-sm" style="height: 60px; width: 60px;" alt="java">
+        <img src="logo/spring.jpg" class="img-fluid rounded shadow-sm" style="height: 60px; width: 60px;" alt="java">
+        <img src="logo/docker.jpg" class="img-fluid rounded shadow-sm" style="height: 60px; width: 60px;" alt="java">
+        <img src="logo/javascript.jpg" class="img-fluid rounded shadow-sm" style="height: 60px; width: 60px;" alt="java">
+        <img src="logo/mongodb.jpg" class="img-fluid rounded shadow-sm" style="height: 60px; width: 60px;" alt="java">
+        <img src="logo/mysql.jpg" class="img-fluid rounded shadow-sm" style="height: 60px; width: 60px;" alt="java">
+        <img src="logo/typescript.jpg" class="img-fluid rounded shadow-sm" style="height: 60px; width: 60px;" alt="java">
+        <img src="logo/j2ee.jpg" class="img-fluid rounded shadow-sm" style="height: 60px; width: 60px;" alt="java">
+        <img src="logo/nodejs.jpg" class="img-fluid rounded shadow-sm" style="height: 60px; width: 60px;" alt="java">
+        <img src="logo/tailwind.jpg" class="img-fluid rounded shadow-sm" style="height: 60px; width: 60px;" alt="java">
+    </div>
+</div> -->
+
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Java Course</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Online Spring Zoom Class <br>
+
+                👉 သင်တန်းစမည့်ရက် -> August 5, 2024 <br>
+                👉 သင်ကြားမည့်နေ့ရက်များ -> Mon, Tue, Wed <br>
+                👉 သင်တန်းအချိန် -> 19:00 PM to 21 PM <br>
+                👉 သင်တန်းကာလ -> ၅ လ <br>
+                👉 သင်တန်းကြေး -> တစ်လကို တစ်သိန်းကျပ်ပါခင်ဗျာ <br>
+                👉 ဘယ်လိုသင်မှာလဲ -> Online ကနေ Zoom နဲ့ သင်မှာပါခင်ဗျာ <br>
+
+                👌 Java Basic ကို လေ့လာပြီးတဲ့နောက် Spring Framework ကို Online ကနေ လေ့လာလိုသူတွေအတွက် အတန်းဖြစ်ပါတယ်။
+                <br>
+                👌 Zoom ကနေလဲ သင်ကြားပေးသွားမှာ ဖြစ်တဲ့အတွက် စာသင်ချိန်မှာ မသိတာကို Realtime မေးလို့ရပါတယ်။ <br>
+                👌 Zoom အတန်းမှာ သင်ကြားထားတဲ့ Recording တွေကိုလဲ Telegram Channel မှာ တင်ပေးသွားမှာဖြစ်လို့
+                အချိန်မရလို့ အတန်းမတက်ဖြစ်လို့ပဲဖြစ်ဖြစ် ပြန်ပြီးလေ့လာလိုလို့ပဲဖြစ်ဖြစ် လေ့လာလိုပါက
+                အချိန်မရွေးပြန်ပြီးလေ့လာလို့ရနိုင်ပါတယ်။ <br>
+
+                🍀 သင်ကြားမည့် အကြောင်းအရာများ <br>
+                --------------------------- <br><br><br>
+
+                ☑️ Spring IoC Container<br>
+                ☑️ Spring XML Configurations<br>
+                ☑️ Spring Annotation Configurations<br>
+                ☑️ Spring Java Configurations<br>
+                ☑️ Spring Boots <br>
+                ☑️ Spring Beans<br>
+                ☑️ Spring DI<br>
+                ☑️ Spring AOP <br>
+                ☑️ Spring JDBC<br>
+                ☑️ Spring ORM With Hibernate JPA<br>
+                ☑️ Spring Data JPA<br>
+                ☑️ Spring Web MVC<br>
+                ☑️ Spring Web Security<br>
+                ☑️ Spring REST Application<br><br><br>
+
+                💁‍♂️ သင်တန်းကြေးပေးသွင်းရန် <br>
+                ======================<br>
+                👉 AYA Bank Account<br>
+                2002-3122-325 (U Zaw Min Lwin)<br>
+                👉 CB Bank Account<br>
+                0021-6001-0008-8177 (Daw Pa Pa Aung)<br>
+                👉 KBZ Bank Account<br>
+                098-301-23800005601 (Daw Pa Pa Aung)<br>
+                👉 Online Payments<br>
+                CB Pay : 09261394683 (Daw Pa Pa Aung)<br>
+                KBZ Pay : 09261394683 (Daw Pa Pa Aung)<br>
+                Wave : 09782003098 (U Zaw Min Lwin) - (ဖုန်းနံပါတ်၊ Password နှင့် မလွှဲပါရန် မေတ္တာရပ်ခံပါတယ်။)<br>
+
+                ✌️သင်တန်းကြေးပေးသွင်းပြီးပါက ငွေလွှဲပြီးကြောင်း ပြေစာကို Screenshot (သို့) ဓာတ်ပုံ ရိုက်ပြီး page cb
+                သို့ အမည်, ဖုန်းနံပါတ်,Mail တို့နှင့်တကွ ပေးပို့ခြင်းဖြင့်အပ်လို့ရပါပြီ။<br>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+

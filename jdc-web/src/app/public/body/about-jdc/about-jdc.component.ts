@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './about-jdc.component.css'
 })
 export class AboutJdcComponent {
-
+  text = "about";
 }
